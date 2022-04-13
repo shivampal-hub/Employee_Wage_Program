@@ -20,8 +20,6 @@ public class EmpWageBuilderUC5 {
 
         System.out.println("Welcome to Employee Wage Calculation Program");
 
-        EmpWageBuilderUC5 emp = new EmpWageBuilderUC5();
-
         for(int i = 0; i<numOfWorkingDays;i++) {
             totalWorkingDays++;
             int empcheck = (int) Math.floor(Math.random() * 10) % 3;
